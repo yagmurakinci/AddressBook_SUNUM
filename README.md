@@ -5,7 +5,12 @@ Burada projenin ekran resimlerini ve kaynak kodlardan bazı kod parçalarını a
 
 PROJE HAKKINDA TEKNİK BİLGİLER:
 
-Proje Visual Studio .Net 6 ASP.NET MVC CORE ile yazıldı. Proje Entity Framework Core Code-First yaklaşımıyla yazılmıştır. Projede AspnetCore Identity kullanarak üyelik sistemini yazdık. Projeyi 5 katman (EL,DAL,BLL,UI, AddressBookNeighborhoodsLoad) olarak yazdık. -AddressBookNeighborhoodsLoad katmanı Console uygulaması olup Mahalle datasını eklemektedir. (70bin data bulunuyor) Projede İlleri ve İlçeleri Excel dosyasını back-endde okuyarak veritabanına proje ilk ayağa kalktığında ekledik. Projede Adres listesi ve Adres Ekle - Adres Sil ekranları bulunuyor. Adres Ekle sayfasındaki işlemleri AJAX ile yapmaktayız. Örneğin; ili seçtiğinde ilçeler sayfa yenilenmeden gelir. İlçeyi seçtiğinde mahalleler sayfa yenilenmeden gelir. Mahalleyi seçince o mahallenin posta kodunu APi'den çektik. https://api.ubilisim.com/postakodu/il/34 Proje gelişmeye açık olup zaman buldukça yeni sayfalar ya da yeni özellikler eklenecektir. Ekran resimleri ve kaynak kodlardan bir parça aşağıda görebilirsiniz .
+* Proje Visual Studio .Net 6 ASP.NET MVC CORE ile yazıldı.
+* Proje Entity Framework Core Code-First yaklaşımıyla yazılmıştır.
+* Projede AspnetCore Identity kullanarak üyelik sistemini yazdık.
+* Projeyi 5 katman (EL,DAL,BLL,UI, AddressBookNeighborhoodsLoad) olarak yazdık. -AddressBookNeighborhoodsLoad katmanı Console uygulaması olup Mahalle datasını eklemektedir. (70bin data bulunuyor) Projede İlleri ve İlçeleri Excel dosyasını back-endde okuyarak veritabanına proje ilk ayağa kalktığında ekledik. 
+* Projede Adres listesi ve Adres Ekle - Adres Sil ekranları bulunuyor. Adres Ekle sayfasındaki işlemleri AJAX ile yapmaktayız. Örneğin; ili seçtiğinde ilçeler sayfa yenilenmeden gelir. İlçeyi seçtiğinde mahalleler sayfa yenilenmeden gelir. Mahalleyi seçince o mahallenin posta kodunu APi'den çektik. https://api.ubilisim.com/postakodu/il/34 Proje gelişmeye açık olup zaman buldukça yeni sayfalar ya da yeni özellikler eklenecektir.
+Ekran resimleri ve kaynak kodlardan bir parça aşağıda görebilirsiniz .
 ![adres1](https://user-images.githubusercontent.com/73273677/220844077-6f10af68-c88a-4551-a8c3-d3eda05a8b54.PNG)
 ![adres2](https://user-images.githubusercontent.com/73273677/220844081-baa697e9-c472-4a94-83ea-d907a5b7d0f8.PNG)
 ![adres3](https://user-images.githubusercontent.com/73273677/220844089-69714dc8-260b-432a-8fd8-2721f9ee5d06.PNG)
